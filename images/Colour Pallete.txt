@@ -1,0 +1,23 @@
+https://colorhunt.co/palette/375a7f4d7cae6a99cbfcfa70
+375A7F
+4D7CAE
+6A99CB
+FCFA70
+
+
+https://colorhunt.co/palette/001e6c035397e8630afcd900
+001E6C
+035397
+E8630A
+FCD900
+
+https://colorhunt.co/palette/001e6c035397e8630afcd900
+Dark: 001E6C
+Blue: 1c64a1
+Tint Blue: 81a9cb
+Tint blue snow: b3cbe0
+Orange: ea7323
+Lighter Orange: 
+Yellow: fcdd1a
+Lighter Yellow: feee8d
+

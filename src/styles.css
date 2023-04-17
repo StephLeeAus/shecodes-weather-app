@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #001e6c;
+}
+
+.weather-app {
+  background-color: #fffefb;
+  width: 50%;
+  margin: 60px auto;
+  border: 8px solid #001e6c;
+  border-radius: 40px;
+  padding: 30px 30px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  color: #fcdd1a;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #001e6c;
+  border: 1px solid #001e6c;
+  text-align: center;
+}
+
+.current-button {
+  padding: 10px 20px;
+  color: #001e6c;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #fcdd1a;
+  border: 1px solid #fcdd1a;
+  text-align: center;
+}
+h1 {
+  margin: 10px;
+  font-weight: bold;
+}
+h2 {
+  margin: 10px;
+}
+
+h3 {
+  margin: 10px;
+}
+form {
+  margin: 10px;
+}
+img {
+  width: 50px;
+}
+.min-temp {
+  color: #4d6298;
+  text-align: center;
+}
+
+.max-temp {
+  text-align: center;
+}
+.forecast {
+  text-align: center;
+}

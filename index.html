@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <div class="row">
+            <div class="col-6">
+              <input
+                type="search"
+                placeholder="Find your city..."
+                autofocus="on"
+                autocomplete="off"
+                id="city-input"
+                class="form-control shadow-sm"
+              />
+            </div>
+            <div class="col-3">
+              <input type="submit" value="Search" class="search-button" />
+            </div>
+            <div class="col-3">
+              <button class="current-button" id="current-location-button">
+                Current
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-6">
+            <h1>
+              <span class="temperature" id="temperature"></span>
+              <span class="units">°C</span>
+            </h1>
+            <h2 id="date">Sunday 5th March</h2>
+            <h3 id="city">Perth, Western Australia</h3>
+          </div>
+          <div class="col-6">
+            <p>
+              <img src="images/Humidity.png" alt="Humidity" class="img-fluid" />
+              <span> Humidity: <span id="humidity"></span>%</span>
+              <br />
+              <img src="images/Wind.png" alt="Wind" class="img-fluid" />
+              <span> Wind: <span id="wind"></span> km/h</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <p class="forecast">
+              <img src="images/Sun.png" alt="Sun" class="img-fluid" />
+              <br />
+              Monday
+              <br />
+              <span class="max-temp"> 28° </span>
+              <span class="min-temp"> 16° </span>
+            </p>
+          </div>
+          <div class="col-2">
+            <p class="forecast">
+              <img src="images/Sun.png" alt="Sun" class="img-fluid" />
+              <br />
+              Tuesday
+              <br />
+              <span class="max-temp"> 33° </span>
+              <span class="min-temp"> 20° </span>
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="forecast">
+              <img
+                src="images/Partly Cloudy.png"
+                alt="Partly cloudy"
+                class="img-fluid"
+              />
+              <br />
+              Wednesday
+              <br />
+              <span class="max-temp"> 29° </span>
+              <span class="min-temp"> 18° </span>
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="forecast">
+              <img
+                src="images/Partly Cloudy Rain.png"
+                alt="Partly cloudy rain"
+                class="img-fluid"
+              />
+              <br />
+              Thursday
+              <br />
+              <span class="max-temp"> 26° </span>
+              <span class="min-temp"> 16° </span>
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="forecast">
+              <img
+                src="images/Partly Cloudy.png"
+                alt="Partly cloudy"
+                class="img-fluid"
+              />
+              <br />
+              Friday
+              <br />
+              <span class="max-temp"> 26° </span>
+              <span class="min-temp"> 17° </span>
+            </p>
+          </div>
+
+          <div class="col-2">
+            <p class="forecast">
+              <img src="images/Sun.png" alt="Sun" class="img-fluid" />
+              <br />
+              Saturday
+              <br />
+              <span class="max-temp"> 29° </span>
+              <span class="min-temp"> 18° </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/javascript.js"></script>
+  </body>
+</html>
